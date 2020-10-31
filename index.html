@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Awakelab Full Stack Python</title>
+    <title>SoftCheck</title>
     <meta charset="utf-8">
     <meta name="viewport" 
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,14 +11,14 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
       crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" 
-        rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
+      rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Awakelab</a>
+       <img src="img/logo1.png" height="90px">
 
       <!-- Navigation Bar Hamburger-->
       <button
@@ -39,28 +39,14 @@
               <a
                 class="nav-link scroll-trigger" 
                 href="#principal">
-                  Sistema Medico
+                  Sistema Médico
               </a>
             </li>
             <li class="nav-item">
               <a 
                 class="nav-link scroll-trigger" 
-                href="#competencias">
-                  Competencias
-              </a>
-            </li>
-            <li class="nav-item">
-              <a 
-                class="nav-link scroll-trigger" 
-                href="#equipo">
-                  Equipo
-              </a>
-            </li>
-            <li class="nav-item">
-              <a 
-                class="nav-link scroll-trigger" 
-                href="#enlaces"> 
-                  Enlaces
+                href="#Nosotros">
+                  Nosotros
               </a>
             </li>
             <li class="nav-item">
@@ -98,18 +84,7 @@
                       Logout
                   </a>
               </div>
-            </li>
-         </ul>
-         <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" 
-              type="text"
-              placeholder="Search" 
-              aria-label="Search">
-           <button class="btn btn-outline-success border-dark 
-                    font-weight-bold text-white my-2 my-sm-0"
-                    type="submit">Search</button>
-         </form>
-      </div>
+
       <!-- Navigation Links -->
     </nav>
     <!-- End Navigation Bar -->
@@ -119,101 +94,60 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="jumbotron jumbotron-main">
-            <h2>Grupo Full Stack Python</h2>
-            <h3>Awakelab</h3>
+            <h2>Checkea tu día</h2>
+            <h3>¡En un solo clic!</h3>
           </div>
         </div>
       </div>
     </div>
     <!-- End Section: Principal -->
 
-    <!-- Section: Competencias -->
-    <div class="container-fluid bg-dark" id="competencias">
+    <!-- Section: Nosotros -->
+    <div class="container-fluid bg-gradient-secondary" id="nosotros">
       <div class="row">
-        <h3>Nuestras Competencias</h3>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
+        <h3>Por qué nosotros</h3>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
           <div class="card">
-            <h3 class="card-header">Paciente 1</h3>
+            <img src="img/competencia_1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Ultimos Datos</h4>
-              <p class="card-text">Hospitalización semana pasada</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
+              <h5 class="card-title">Alta Tecnología</h5>
+              <p class="card-text">El foco de nuestro trabajo es entregar al paciente atención
+                 con los mejores estándares de calidad y seguridad. En los indicadores de 
+                 seguridad del paciente observamos el impacto de la aplicación de las medidas 
+                 internacionalmente recomendadas para disminuir eventos, que siendo no deseados, 
+                 pueden ocurrir dentro de la atención de los pacientes más graves.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col mb-4">
           <div class="card">
-            <h3 class="card-header">Paciente  2</h3>
+            <img src="img/competencia_2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Ultimos Datos</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
+              <h5 class="card-title">Médicos Capacitados</h5>
+              <p class="card-text">Nuestro compromiso es entregar medicina de 
+                confianza en un modelo de atención centrado en los pacientes y sus familias.
+                En cada una de nuestras acciones buscamos promover una cultura de calidad y 
+                seguridad y el constante desarrollo de nuestro personal así como ser un campo 
+                clínico modelo para la formación de profesionales de excelencia.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col mb-4">
           <div class="card">
-            <h3 class="card-header">Competencia 3</h3>
+            <img src="img/competencia_3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
+              <h5 class="card-title">Toda tu información en un lugar</h5>
+              <p class="card-text">Durante tu permanencia en nuestra App, estarás a 
+                cargo de un médico tratante, responsable de tu atención. De ser necesario, 
+                también serás evaluado por médicos de otras especialidades, denominados médicos 
+                interconsultores. Tendrás un registro diario de cada uno de tus medicamentos y
+                estados de salud, los que serán de utilizad en caso de que un tercero tenga que
+                llevarte a un consulta.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="card">
-            <h3 class="card-header">Competencia 4</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <h3 class="card-header">Competencia 5</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <h3 class="card-header">Competencia 6</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <h3 class="card-header">Competencia 7</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Section: Competencias -->
+    <!-- End Section: Nosotros -->
 
     <!-- Section: Equipo -->
     <div class="container-fluid bg-light" id="equipo">
@@ -227,21 +161,21 @@
             data-interval="3000">
           <div class="carousel-inner" style="padding: 4rem;" role="listbox">
             <div style="height: 400px" class="carousel-item active">
-              <img class="d-block img-fluid carousel-img" src="img/group1.jpg">
+              <img class="d-block img-fluid carousel-img" src="img/equipo_general.jpg">
               <div class="carousel-caption">
-                Grupo Front End
+                Equipo Medicina General
               </div>
             </div>
             <div style="height: 400px" class="carousel-item">
-              <img class="d-block img-fluid carousel-img" src="img/group2.jpg">
+              <img class="d-block img-fluid carousel-img" src="img/equipo_telemed.jpg">
               <div class="carousel-caption">
-                Grupo Back End
+                Equipo Telemedicina
               </div>
             </div>
             <div style="height: 400px" class="carousel-item">
-              <img class="d-block img-fluid carousel-img" src="img/group3.jpg">
+              <img class="d-block img-fluid carousel-img" src="img/equipo_admin.jpg">
               <div class="carousel-caption">
-                Grupo DevOps
+                Equipo Administrativo
               </div>
             </div>
           </div>
@@ -282,7 +216,7 @@
             <img class="d-flex mr-3" src="img/flag-64.png" 
                 alt="Generic placeholder image">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 1</h5>
+              <h5 class="mt-0">Hospitales</h5>
               <ul>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
@@ -297,7 +231,7 @@
             <img class="d-flex mr-3" src="img/world-64.png" 
                 alt="Generic placeholder image">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 2</h5>
+              <h5 class="mt-0">Clínicas</h5>
               <ul>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
@@ -314,7 +248,7 @@
             <img class="d-flex mr-3" src="img/screen-64.png" 
                 alt="Generic placeholder image">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 3</h5>
+              <h5 class="mt-0">Médicos Inscritos</h5>
               <ul>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
@@ -329,7 +263,7 @@
             <img class="d-flex mr-3" src="img/gear-64.png" 
                 alt="Generic placeholder image">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 4</h5>
+              <h5 class="mt-0">Previsión de Salud</h5>
               <ul>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
                 <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
@@ -343,10 +277,53 @@
     </div>
     <!-- End Section: Enlaces -->
 
+    <!-- Section: Noticias -->
+    <div class="container-fluid bg-secondary" id="Noticias">
+      <div class="row">
+        <h3>Noticias</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <h3 class="card-header">Covid-19</h3>
+            <div class="card-body">
+              <h4 class="card-title">Covid-19 y sus consecuencia</h4>
+              <p class="card-text">Los pacientes que tuvieron Coronavirus
+                han presentados consecuencias pulmonares y cerebrales.</p>
+              <a href="#!" class="btn btn-dark">Ver mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <h3 class="card-header">Diabetes</h3>
+            <div class="card-body">
+              <h4 class="card-title">Como enfrentar la diabetes</h4>
+              <p class="card-text">La Diabetes es una de las enfermedades
+                crónicas con mayor participación a nivel de habitantes en Chile.</p>
+              <a href="#!" class="btn btn-dark">Ver mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <h3 class="card-header">Obesidad</h3>
+            <div class="card-body">
+              <h4 class="card-title">¿Son buenas las grasas?</h4>
+              <p class="card-text">El ritmo de vida de la sociedad moderna a llevado
+                a la población chilena a consumir cada vez más alimentos procesados.</p>
+              <a href="#!" class="btn btn-dark">Ver mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Section: Noticias -->
+
     <!-- Section: Contacto -->
     <div class="container-fluid bg-light" id="contacto">
       <div class="row">
-        <h2>Contáctanos</h2>
+        <h2>Hablemos</h2>
       </div>
       <div class="row justify-content-center align-items-center h-100">
         <div class="col-sm-6" id="contact-form">
@@ -362,9 +339,9 @@
                   placeholder="Tu Email">
             </div>
             <div class="form-group">
-              <label for="contact-msg">Email</label>
+              <label for="contact-msg">Mensaje</label>
               <textarea class="form-control" id="contact-msg" 
-                  placeholder="Tu Mensaje" rows="4"></textarea>
+                  placeholder="Qué quieres decirnos" rows="4"></textarea>
             </div>
             <div class="btn-group">
               <button type="button" class="btn btn-outline-secondary">Enviar</button>
@@ -376,9 +353,9 @@
     </div>
     <!-- End Section: Contacto -->
 
-    <footer class="footer bg-dark text-center">
-      <p class="text-muted">&copy; 2020 Awakelab.</p>
-      <p class="text-muted">Grupo Full Stack Python</p>
+    <footer class="footer bg-dark text-center" >
+      <p class="text-muted">&copy; 2020 SoftCheck.</p>
+      <p class="text-muted">App Médica</p>
     </footer>
 
     <!-- MODAL FORMS -->
