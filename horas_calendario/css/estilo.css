@@ -1,0 +1,28 @@
+@media only screen and (max-width: 680px) {
+    body {
+        background: gray;
+    }
+    
+    h5{
+        text-align: center;
+    }
+    h6 {
+        size:auto;
+        text-size-adjust: 1vw;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        size: 14vw;
+    }
+    p {
+        padding: 9%;
+        text-align: center;
+    }
+    
+    .row {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    }
