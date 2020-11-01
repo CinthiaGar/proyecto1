@@ -48,7 +48,7 @@ body {
 }
 
 .bg-principal {
-    background-image: url('../img/fondo_principal.jpg');
+    background-image: url('../img/fondo_principal-min.jpg');
     background-size: cover;
 }
 
@@ -58,7 +58,7 @@ body {
     background: rgba(175, 171, 171, 0.5); 
  }
 
- .card {
+.card {
     margin-top: 20px;
     margin-bottom: 20px;
 }
