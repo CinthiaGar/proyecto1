@@ -42,6 +42,11 @@ h1, h2, h3, h4, h5, h6, .navbar, .modal {
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
 .bg-principal {
     background-image: url('../img/fondo_principal-min.jpg');
     background-size: cover;
@@ -70,6 +75,13 @@ textarea {
     resize: none; 
 }
 
-.footer p {
+.fixed-bottom p {
     display: inline;
+}
+.LoginForm {
+    margin-left: 20%;
+   
+}
+.RegistroForm {
+    margin-left: 20%;
 }
