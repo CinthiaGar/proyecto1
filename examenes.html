@@ -18,12 +18,22 @@
 
 <body>
 
-<div>
-<canvas id="chartColesterolTotal"></canvas>
-<canvas id="chartTrigliceridos"></canvas>
-<canvas id="chartTotalHdl"></canvas>
-
-</div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <canvas id="chartTrigliceridos"></canvas>
+          </div>
+          <div class="col-sm">
+            <canvas id="chartTotalHdl"></canvas>
+          </div>
+          <div class="col-sm">
+            <canvas id="chartColesterolTotal"></canvas>
+          </div>
+          <div class="col-sm">
+            <canvas id="chartHemograma"></canvas>
+          </div>
+        </div>
+      </div>
 
 <div class="accordion" id="acooexamnes">
   <div class="card">
@@ -32,6 +42,7 @@
         <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#plipidico" aria-expanded="true" aria-controls="plipidico">
           Perfil Lipídico
         </button>
+
       </h2>
     </div>
 
