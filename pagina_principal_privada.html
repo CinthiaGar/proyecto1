@@ -9,31 +9,21 @@
 
     <!-- Barra arriba -->
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active"><img src="imagenes\logoapp_negro.png" alt="" height="20px" width="100px"></a>
+  <a href="pagina_para_ingresar.html" class="active"><img src="imagenes\logoapp_negro.png" alt="" height="20px" width="100px"></a>
   <a href="#news">Noticias</a>
   <a href="#contact">Contacto</a>
   <a href="#about">Acerca de nosotros</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
+    <script src="java\java.js"></script>
   </a>
 </div>
 
-<!-- Script Java -->
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 
 <!-- Barra lateral -->
  <div class="sidebar">
-    <a href="gatitos.html" target="eroom">Resultado examenes</a>
-    <a href="perritos.html" target="eroom">Recetas</a>
+    <a href="examenes_tablas_y_graficos.html" target="eroom">Resultado examenes</a>
+    <a href="#recetas">Recetas</a>
     <a href="reserva_horas.html" target="eroom">Reserva Horas</a>
     </div>
   
