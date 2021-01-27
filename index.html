@@ -14,6 +14,26 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
       rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">
+      function validar()
+      {
+        var usuario = document.getElementById("usuario").value;
+        var contraseña = document.getElementById("pass").value;  
+
+        if (usuario=="estudiante@awake.cl" &&  contraseña=="12345")
+        {
+          
+          location.href="pagina_para_ingresar.html"
+        }
+        else
+        {
+          alert("Los datos son incorrectos")
+        }
+      }       
+
+
+    </script>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -65,27 +85,35 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false">
-                      Perfil <span class="caret"></span>
+                      Ingresar <span class="caret"></span>
               </a>
               <div class="dropdown-menu dropdown-menu-right">
-                  <a 
-                    class="dropdown-item scroll-trigger"
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#profile-modal">
-                      Ingresar
-                  </a>
-                  <a class="dropdown-item scroll-trigger"
-                    data-toggle="modal"
-                    data-target="#settings-modal">
-                      Registrarse
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item scroll-trigger" href="">
-                      Logout
-                  </a>
-              </div>
+                  <label>Usuario:</label> 
+                      <input type="text" name="usuario" id="usuario">
+                  
+                            <!-- Password -->
+                  <label>Contraseña:</label>
+                      <input type="password" name="pass" id="pass">
+                  <p><a href="#">Olvidaste tu contraseña?</a>
+                  <div id="lower">
+                      <input type="checkbox"><label class="check" for="checkbox">Recordar contraseña</label>
+                      <!-- Submit Button -->
+                      <input type="button" name="btnverifica" id="btnverifica" onclick="validar()" value="Ingresar">
+                  </div>
 
+                  <a class="dropdown-item scroll-trigger" data-toggle="modal"
+                    data-target="#settings-modal">
+
+                    
+                      Registrarse
+                      
+                  </a>
+
+              </form> 
+            
+          </td>  
+        </tr>     
+        </table>
       <!-- Navigation Links -->
     </nav>
     <!-- End Navigation Bar -->
